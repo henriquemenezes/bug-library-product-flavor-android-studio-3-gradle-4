@@ -23,12 +23,8 @@ android {
     flavorDimensions "app"
 
     productFlavors {
-        free {
-            dimension "app"
-        }
-        paid {
-            dimension "app"
-        }
+        free {}
+        paid {}
     }
 
     sourceSets {
